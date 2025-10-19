@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>shinchans world</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top small user bar (optional) -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <img src="logo.jpeg" alt="logo" class="top-logo">
+      <span class="username">RAKIBUL HASAN MIRAZ</span>
+      <span class="uid">Roll: 875538</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="brand">
+        <img src="logo.jpeg" alt="logo" class="logo">
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+
+      <div class="search">
+        <input type="search" placeholder="Search" id="searchInput">
+        <button id="searchBtn">Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO / SLIDER -->
+  <section id="home" class="hero">
+    <h1>Welcome to Shicchan's World 🎉</h1>
+    <div class="slider">
+      <img src="slider-image1.jpeg" alt="hero image" class="slide active">
+      <img src="slider-image2.jpeg" alt="hero image" class="slide">
+      <img src="slider-image3.jpeg" alt="hero image" class="slide">
+      <div class="slider-controls">
+        <button id="prev">‹</button>
+        <button id="next">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN LAYOUT: two columns on wide screens; stacked on small screens -->
+  <main class="container">
+    <section class="content-left">
+      <!-- About -->
+      <article id="about" class="about">
+        <h2>About Shinchan Story</h2>
+        <p>
+          Shinchan is a popular Japanese cartoon that follows the funny and mischievous adventures of a five-year-old boy named Shinnosuke Nohara, also known as Shinchan. He lives with his parents, baby sister Himawari, and their pet dog Shiro. The show is full of humor, clever jokes, and silly moments that make both children and adults laugh. Shinchan’s funny behavior, his unique way of talking, and his innocent yet naughty actions make him one of the most loved cartoon characters in the world. 
+        </p>
+      </article>
+
+      <!-- Some page content -->
+      <article class="text-block">
+        <h3>More Content</h3>
+        <p> Crayon Shinchan is a Japanese animated series created by Yoshito Usui. The story revolves around a little boy named Shinchan who always gets into funny trouble. He is known for his hilarious dance moves, funny questions, and his naughty nature. Despite his mischief, Shinchan has a kind heart and always brings a smile to everyone’s face. The cartoon teaches us about family, friendship, and enjoying the little moments of life.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <!-- Character Cards -->
+      <div class="card widget">
+        <h3>Character 01</h3>
+        <img src="shinchan.jpeg" alt="Shinchan">
+      <p class="caption">Shinchan</p>
+        <a class="details" href="#">▶ Details</a>
+      </div>
+
+      <div class="card widget">
+        <h3>Character 02</h3>
+        <img src="shinchan-father.jpeg" alt="Shinchan father">
+        <p class="caption">shinchan-father</p>
+        <a class="details" href="#">▶ Details</a>
+      </div>
+
+      <div class="card widget">
+        <h3>Character 03</h3>
+        <img src="shinchan-mother.jpeg" alt="Shinchan-mother">
+        <p class="caption">Shinchan-mother</p>
+        <a class="details" href="#">▶ Details</a>
+      </div>
+
+      <!-- Google Map (iframe) -->
+      <div class="card widget">
+        <h3>Google Map</h3>
+        <!-- Replace src with your location/embed link -->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7320.182318182776!2d91.18159931111447!3d23.457176063363693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37537d05fcfe94db%3A0x1d9bc8f29755e8e1!2sCumilla%20Victoria%20Government%20College%2CCumilla!5e0!3m2!1sen!2sbd!4v1760894601263!5m2!1sen!2sbd" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      </div>
+
+      <!-- Google Calendar (iframe) -->
+      <div class="card widget">
+        <h3>Google Calendar</h3>
+        <iframe src="https://calendar.google.com/calendar/embed?src=en.bd%23holiday%40group.v.calendar.google.com&ctz=Asia%2FDhaka"
+                style="border: 0" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+      </div>
+
+      <!-- Audio Player -->
+      <div class="card widget">
+        <h3>🎵 Shinchan intro music</h3>
+        <audio controls preload="none" style="width:100%;">
+          <source src="song.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+ <footer>
+  <div class="footer-content">
+    <h3>Follow Us</h3>
+    <div class="social">
+      <a href="https://www.facebook.com/YourFacebookID" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/YourInstagramID" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+      </a>
+      <a href="https://wa.me/8801712345678" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <p>© 2025 All Rights Reserved.</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
